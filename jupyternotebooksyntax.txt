@@ -1,0 +1,127 @@
+# Basic Markdown Syntax
+
+## 1. Headers
+```markdown
+# Main Title (h1)
+## Section Title (h2)
+### Subsection (h3)
+```
+
+## 2. Tables
+```markdown
+| Column1 | Column2 | Column3 |
+|---------|---------|---------|
+| cell1   | cell2   | cell3   |
+```
+
+## 3. Text Formatting
+```markdown
+**bold text**
+*italic text*
+`code or formula`
+~~strikethrough~~
+
+Line break: Add two spaces at end of line  
+Or use <br> HTML tag
+```
+
+## 4. Lists
+```markdown
+1. Numbered list
+2. Second item
+   - Bullet point
+   - Another bullet
+     * Sub-bullet
+     * Another sub-bullet
+```
+
+## 5. Code Blocks
+````markdown
+```python
+# Code block with syntax highlighting
+def function():
+    pass
+```
+
+```javascript
+// JavaScript code
+function example() {
+    return true;
+}
+```
+````
+
+## 6. Links and Images
+```markdown
+[Link text](URL)
+![Image alt text](image_url)
+```
+
+## 7. Blockquotes
+```markdown
+> This is a blockquote
+> Multiple lines
+>> Nested blockquote
+```
+
+## 8. Tables with Formatting
+```markdown
+| Feature | Description | Example |
+|---------|-------------|---------|
+| Bold in table | Use **asterisks** | **like this** |
+| Code in table | Use `backticks` | `code here` |
+| Lists in table | Use<br>• bullet points<br>• another point | • example<br>• example |
+```
+
+## 9. Mathematical Notation
+```markdown
+Simple inline: `x = y + z`
+
+Complex equation block:
+```math
+E = mc^2
+```
+```
+
+## 10. Combined Example
+```markdown
+# Algorithm Comparison
+
+| Algorithm | Formula | Implementation |
+|-----------|---------|----------------|
+| **XGBoost** | `gain = GL²/HL`<br>where:<br>• GL = gradient<br>• HL = hessian | ```python
+def calc():
+    pass
+``` |
+```
+
+## Common Markdown Special Characters:
+```markdown
+• Bullet (Alt/Option + 8)
+→ Arrow
+≤ Less than or equal
+≥ Greater than or equal
+∑ Summation
+∈ Element of
+∝ Proportional to
+```
+
+## Tips for Tables:
+```markdown
+| Aspect | Details |
+|--------|---------|
+| Multi-line<br>content | Use `<br>` |
+| Lists in cells | • Point 1<br>• Point 2 |
+| Code in cells | `code here` |
+| Math in cells | `x = y + z` |
+```
+
+## Special Syntax for Code Blocks in Tables:
+```markdown
+| Algorithm | Code |
+|-----------|------|
+| Example | ```python
+def function():
+    return True
+``` |
+```
